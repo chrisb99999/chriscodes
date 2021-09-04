@@ -3,6 +3,17 @@ import styled from "@emotion/styled";
 import office from "../../static/office.jpeg";
 import { keyframes } from "@emotion/react";
 
+const slideUp = keyframes`
+from {
+  opacity: 0;
+  transform: translateY(30px);
+}
+to {
+  opacity: 1;
+  transform: translateY(0px);
+}
+`;
+
 const LandingImage = styled.div`
   height: 400px;
   width: 900px;
@@ -39,17 +50,6 @@ const Container = styled.div`
   &:hover ${LandingImage} {
     opacity: 0.2;
   }
-`;
-
-const slideUp = keyframes`
-from {
-  opacity: 0;
-  transform: translateY(30px);
-}
-to {
-  opacity: 1;
-  transform: translateY(0px);
-}
 `;
 
 const Image = () => {

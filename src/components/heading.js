@@ -5,8 +5,8 @@ import quotes from "../../static/quotes.png";
 import { keyframes } from "@emotion/react";
 
 const Container = styled.div`
-  margin-top: 200px;
-  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   background-repeat: no-repeat;
   padding: 20px;
 `;
