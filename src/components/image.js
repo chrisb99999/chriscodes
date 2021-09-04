@@ -13,7 +13,6 @@ to {
   transform: translateY(0px);
 }
 `;
-
 const LandingImage = styled.div`
   height: 400px;
   width: 900px;
@@ -23,32 +22,26 @@ const LandingImage = styled.div`
   animation: ${slideUp} 1s 0.3s ease forwards;
   opacity: 0;
   transition: 0.5s ease-in-out;
-
-  &:hover {
-    opacity: 0.2;
-  }
 `;
 
 const Overlay = styled.div`
   opacity: 0;
   position: absolute;
-  /* background: #d3d3d3; */
   transition: 0.5s ease-in-out;
-  padding: 20px;
+  background: #d1d1d1;
+  padding: 10px;
 `;
 
 const Container = styled.div`
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
   padding: 20px;
+  transition: 0.5s ease-in-out;
 
   &:hover ${Overlay} {
-    opacity: 1;
-  }
-  &:hover ${LandingImage} {
-    opacity: 0.2;
+    opacity: 0.7;
   }
 `;
 
