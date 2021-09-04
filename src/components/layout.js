@@ -1,5 +1,6 @@
 import React from "react";
 import { Global, css } from "@emotion/react";
+import Credit from "../components/credit";
 
 const Layout = ({ children }) => {
   return (
@@ -46,6 +47,7 @@ const Layout = ({ children }) => {
           }
         `}
       />
+      <Credit />
       <main
         css={css`
           margin: 2rem auto 4rem;
