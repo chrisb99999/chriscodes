@@ -6,7 +6,7 @@ import { keyframes } from "@emotion/react";
 
 const Container = styled.div`
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   background-repeat: no-repeat;
   padding: 20px;
 `;
@@ -19,6 +19,17 @@ from {
 to {
   opacity: 1;
   transform: translateY(0px);
+}
+`;
+
+const slideRight = keyframes`
+from {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+to {
+  opacity: 1;
+  transform: translateX(0px);
 }
 `;
 
@@ -35,6 +46,7 @@ const LineIconWrapper = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
+  animation: ${slideRight} 1s cubic-bezier(0.61, 0.11, 0.27, 0.89);
 `;
 
 const Line = styled.div`
