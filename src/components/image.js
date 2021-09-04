@@ -20,8 +20,8 @@ const LandingImage = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  animation: ${slideUp} 1s cubic-bezier(0.61, 0.11, 0.27, 0.89);
-  opacity: 1;
+  animation: ${slideUp} 1s 0.3s ease forwards;
+  opacity: 0;
   transition: 0.5s ease-in-out;
 
   &:hover {
