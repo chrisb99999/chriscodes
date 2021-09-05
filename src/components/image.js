@@ -15,7 +15,7 @@ to {
 `;
 const LandingImage = styled.div`
   height: 400px;
-  width: 900px;
+  width: 1200px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

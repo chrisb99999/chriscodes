@@ -11,7 +11,7 @@ const Credit = () => {
         justifyContent: "center",
       }}
     >
-      This is a clone of&nbsp;
+      This is reverse engineered from&nbsp;
       <a href="http://www.juliacodes.com"> Julia Codes</a>. Any and all credit
       is due to Julia Johnson.
     </div>
