@@ -84,7 +84,7 @@ const Heading = () => {
             <span style={{ color: "rgb(180, 224, 232)" }}>Developer</span>,
             <br />
           </span>
-          <span>student and job seeker.</span>
+          <span>student and experimenter.</span>
         </HeaderContent>
       </HeadingWrap>
     </Container>

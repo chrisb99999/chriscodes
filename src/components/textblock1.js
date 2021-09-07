@@ -20,10 +20,16 @@ const TextBlock1 = () => {
   return (
     <Wrapper>
       <Text>
-        Hey, it's Chris. I like coding and things. <br /> <br />
-        And more things.
+        Jackdaws love my big sphinx of quartz. Jackdaws love my big sphinx of
+        quartz. Jackdaws love my big sphinx of quartz.
+        <br /> <br />
+        Jackdaws love my big sphinx of quartz. Jackdaws love my big sphinx of
+        quartz.
       </Text>
-      <Text>Another para.</Text>
+      <Text>
+        Jackdaws love my big sphinx of quartz. Jackdaws love my big sphinx of
+        quartz. Jackdaws love my big sphinx of quartz.
+      </Text>
     </Wrapper>
   );
 };
